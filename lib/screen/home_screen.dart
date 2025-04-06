@@ -30,7 +30,7 @@ class HomeScreen extends StatelessWidget {
                       color: const Color.fromRGBO(255, 255, 255, 0.15)),
                 ),
                 const Center(
-                  child: const Text(
+                  child: Text(
                     'Inicio',
                     style: TextStyle(fontSize: 30, color: Colors.white),
                   ),
