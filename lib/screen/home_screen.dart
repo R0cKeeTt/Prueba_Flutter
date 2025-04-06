@@ -4,7 +4,7 @@ class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
   @override
   Widget build(BuildContext context) {
-    final size_screen = MediaQuery.of(context).size;
+    final sizeScreen = MediaQuery.of(context).size;
     return Scaffold(
         body: Container(
       color: Colors.grey[300],
@@ -14,7 +14,7 @@ class HomeScreen extends StatelessWidget {
         children: [
           Container(
             width: double.infinity,
-            height: size_screen.height * 0.4,
+            height: sizeScreen.height * 0.4,
             decoration: const BoxDecoration(
                 gradient: LinearGradient(colors: [
               Color.fromRGBO(255, 165, 0, 1),
